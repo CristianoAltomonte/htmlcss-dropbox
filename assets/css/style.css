@@ -25,7 +25,7 @@ li{
 }
 
 .format{
-    width: 60%;
+    width: 50%;
     margin: auto;
 }
 
@@ -65,4 +65,50 @@ li{
 
 .container-both{
   width: calc(100/2);
+}
+
+.bottoni{
+    margin-top: 30px;
+}
+.container-col{
+}
+
+.col-1{
+    border: 1px solid black;
+    width: 175px;
+    height: 700px;
+    text-align: left;
+
+}
+
+.th{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-icon{
+    padding: 20px 3px;
+    
+
+}
+
+.fa-user, .fa-folder, .fa-share-nodes, .fa-check{
+    margin-right: 8px;
+}
+
+.button-blu{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 3px;
+}
+
+.linea {
+    border: 1px solid lightgray;
+    width: 25%;
+}
+
+.fa-check{
+    color: blue;
 }
