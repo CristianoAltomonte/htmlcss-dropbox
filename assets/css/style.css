@@ -4,3 +4,65 @@
     box-sizing: border-box;
 }
 
+header{
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.format{
+    width: 60%;
+    margin: auto;
+}
+
+.center{
+    width: 62%;
+    margin: auto;
+}
+
+.container-jumbotron{
+    background-color: lightblue;
+    
+
+}
+
+.jumbotron{
+    padding: 70px 0;
+}
+
+.jumbotron >h1{
+    font-size: 4em;
+    
+}
+
+.testo{
+    width: 585px;
+    height: 305px;
+
+}
+.picture{
+    width: 857px;
+    height: 368px;
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.container-both{
+  width: calc(100/2);
+}
