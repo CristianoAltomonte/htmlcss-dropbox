@@ -19,6 +19,12 @@ header{
     align-items: center;
 }
 
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+}
+
 li{
     list-style: none;
     margin-left: 10px;
@@ -76,7 +82,7 @@ li{
 .col-1{
     border: 1px solid black;
     width: 175px;
-    height: 700px;
+    height: 720px;
     text-align: left;
 
 }
@@ -93,7 +99,7 @@ li{
 
 }
 
-.fa-user, .fa-folder, .fa-share-nodes, .fa-check{
+.fa-user, .fa-folder, .fa-share-nodes, .fa-check, .fa-building{
     margin-right: 8px;
 }
 
@@ -111,4 +117,18 @@ li{
 
 .fa-check{
     color: blue;
+}
+
+.box {
+    margin-top: 100px;
+    border: 1px solid black;
+
+}
+
+.team{
+    padding: 15px 20px;
+}
+
+.team >p{
+    width: 68%;
 }
