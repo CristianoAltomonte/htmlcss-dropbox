@@ -193,7 +193,6 @@ img{
 .colonna{
     width: calc(100%/3);
     height: calc(100vw/3);
-    border: 1px solid black;
 }
 
 .colonna-bg{
@@ -202,11 +201,16 @@ img{
 
 }
 .colonna-x{
-    background-image: url('../img/designit.svg');
-    background-size: 55%;
-    background-repeat: no-repeat;
-    Background-position: center;
+    padding: 40px 30px;
+}
 
+.colonna-x > img{
+    width: 40%;
+    margin-bottom: 100px;
+} 
+
+.colonna-x >p {
+    padding: 10px 0;
 }
 .cella{
     height: 50%;
@@ -214,8 +218,6 @@ img{
     Background-position: center;
     background-size: 55%;
     background-repeat: no-repeat;
-    border: 1px solid red; 
-    
 }
 
 .cella-1{
@@ -230,23 +232,27 @@ img{
 }
 .cella-3{
     background-image: url('../img/university_of_florida.svg');
-
+    background-color: rgba(0, 147, 206, 1);
 }
 .cella-4{
     background-image: url('../img/topps.svg');
+    background-color: rgba(255, 28, 28, 1);
 
 }
 .cella-5{
     background-image: url('../img/world_bicycle_relief.svg');
-
+    background-color:rgba(213, 0, 31, 1);
 }.cella-6{
     background-image: url('../img/hearst_corp.svg');
+    background-color:rgba(180, 208, 231, 1);
 
 }.cella-7{
     background-image: url('../img/lonely_planet.svg');
+    background-color: rgba(13, 36, 129, 1);
 
 }.cella-8{
     background-image: url('../img/clear_channel.svg');
+    background-color: rgba(255, 216, 48, 1);
 
 }
 .flex-no{
@@ -255,4 +261,18 @@ img{
 
 .flex-wrap{
     flex-wrap: wrap;
+}
+
+.bg-gratuita{
+    background-color: rgba(180, 208, 231, 1);
+    color: rgba(96, 4, 37, 1);
+}
+
+.bg-gratuita > div {
+    padding: 5% 0;
+}
+
+.btn-gratuita{
+    border: none;
+    padding: 10px 30px;
 }
