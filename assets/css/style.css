@@ -72,37 +72,29 @@ li{
 }
 
 .testo{
-    width: 585px;
-    height: 305px;
+    flex-basis: 38%;
 
-}
-
-.testo1{
-    width: 306px;
-    height: 240px;
 }
 
 .picture{
-    width: 857px;
-    height: 368px;
-    background-image: url('../img/jumbo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    flex-basis: 60%;
+    margin-top: -53px;
 }
+
+.container-testo-picture{
+    margin-top: 50px;
+}
+.testo1{
+    flex-basis: 38%;
+}
+
+
 
 .picture-1{
-    width: 400px;
-    height: 368px;
-    background-image: url('../img/partner.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
+    display: flex;
+    flex-basis: 60%;
+} 
 
-.container-both{
-  width: calc(100/2);
-}
 
 .bottoni{
     margin: 30px 0px;
