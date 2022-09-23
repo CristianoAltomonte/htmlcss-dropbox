@@ -88,8 +88,6 @@ li{
     flex-basis: 38%;
 }
 
-
-
 .picture-1{
     display: flex;
     flex-basis: 60%;
@@ -275,4 +273,9 @@ img{
 .btn-gratuita{
     border: none;
     padding: 10px 30px;
+}
+
+.linea{
+    border: 1px solid gray;
+    width: 100%;
 }
