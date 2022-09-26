@@ -16,6 +16,14 @@ header{
     top: 0;
 }
 
+header a {
+    text-decoration: none;
+  }
+
+header a:visited {
+    color: black;
+}
+
 .fa-arrow-down{
     margin-top: 20%; 
     font-size: 50px;
@@ -47,9 +55,10 @@ ul{
     margin-left: 10px;
 }
 
-.piano-business{
+.piano-business, .dpb-bs{
     margin-top: 200px;
 }
+
 .contenuto{
     margin-top: 50px;
 }
@@ -70,7 +79,7 @@ ul{
 }
 
 .jumbotron{
-    padding-top: 70px;
+    padding-top: 75px;
 }
 
 .jumbotron >h1{
@@ -80,18 +89,17 @@ ul{
 
 .testo{
     flex-basis: 38%;
-    position: relative;
-    top: -60px;
-
+    
 }
 
 .picture{
     flex-basis: 60%;
     margin-top: -2%;
+    position: relative;
+    top: 65px;
 }
 
 .container-testo-picture{
-    position:relative;
     top: 90px;
 }
 .testo1{
@@ -135,8 +143,16 @@ input{
 
 }
 
+.center-btn{
+    text-align: center;
+}
+
 .menu-icon{
     margin-top: 50px;
+}
+
+.menu .button-blu{
+   margin: 40px 0;
 }
 
 .menu-icon > p{
@@ -159,13 +175,14 @@ input{
     background-color: #0061FF;
     color: white;
     border: none;
-    padding: 10px 17px;
+    padding: 10px 32px;
     margin-top: 20px;
 }
 
-.linea {
+.hr-linea {
     border: 1px solid lightgray;
-    width: 25%;
+    width: 30%;
+    margin-top: 50px;
 }
 
 .fa-check{
@@ -186,8 +203,20 @@ input{
     width: 68%;
 }
 
-.dropbox-business, .partner  {
+.dropbox-business, .partner, .box-colorati{
     margin-top: 100px;
+}
+
+.dropbox-business >section{
+    margin-bottom: 50px;
+}
+
+.dropbox-business >section > div > h3{
+    margin: 20px 0;
+}
+
+.dropbox-business >h2{
+    margin-bottom: 50px;
 }
 
 .rettangolo{
@@ -202,14 +231,6 @@ img{
     width: 100%;
 }
 
-.dropbox-business >section{
-    margin-bottom: 50px;
-}
-
-.dropbox-business >h2{
-    margin-bottom: 50px;
-}
-
 .flex-basis{
     flex-basis: 30%;
 }
@@ -222,8 +243,12 @@ img{
 .colonna-bg{
     background-color: rgba(245, 245, 245, 1);
     
-
 }
+
+.colonna-big{
+    overflow: auto;
+}
+
 .colonna-x{
     padding: 40px 30px;
 }
@@ -236,6 +261,7 @@ img{
 .colonna-x >p {
     padding: 10px 0;
 }
+
 .cella{
     height: 50%;
     width: 50%;
@@ -250,14 +276,18 @@ img{
     border: 7px inset rgba(209, 233, 205, 1);
     
 }
+
 .cella-2{
     background-image: url('../img/arizona_state_university.svg');
     background-color: rgba(97, 8, 43, 1);
 }
+
 .cella-3{
     background-image: url('../img/university_of_florida.svg');
     background-color: rgba(0, 147, 206, 1);
+    
 }
+
 .cella-4{
     background-image: url('../img/topps.svg');
     background-color: rgba(255, 28, 28, 1);
@@ -266,19 +296,32 @@ img{
 .cella-5{
     background-image: url('../img/world_bicycle_relief.svg');
     background-color:rgba(213, 0, 31, 1);
-}.cella-6{
+}
+
+.cella-6{
     background-image: url('../img/hearst_corp.svg');
     background-color:rgba(180, 208, 231, 1);
 
-}.cella-7{
+}
+
+.cella-7{
     background-image: url('../img/lonely_planet.svg');
     background-color: rgba(13, 36, 129, 1);
 
-}.cella-8{
+}
+
+.cella-8{
     background-image: url('../img/clear_channel.svg');
     background-color: rgba(255, 216, 48, 1);
 
 }
+
+.cella-1, .cella-2, .cella-3, .cella-4, .cella-5, .cella-6, .cella-7, .cella-8{
+    bac
+    filter: invert(100%);
+
+}
+
 .flex-no{
     display: flex;
 }
@@ -305,6 +348,7 @@ img{
     border: 1px solid gray;
     width: 100%;
 }
+
 
 footer{
     background-color: black;
