@@ -316,11 +316,6 @@ img{
 
 }
 
-.cella-1, .cella-2, .cella-3, .cella-4, .cella-5, .cella-6, .cella-7, .cella-8{
-    bac
-    filter: invert(100%);
-
-}
 
 .flex-no{
     display: flex;
